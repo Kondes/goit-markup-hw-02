@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Home work2
+# goit-markup-hw-01
+Domashniaja rabota1
