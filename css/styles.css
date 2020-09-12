@@ -1,3 +1,6 @@
+/*-----INDEX.HTML-------*/
+
+/*-----GENERAL-----*/
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -8,6 +11,9 @@ body {
 .link {
   text-decoration: none;
 }
+/*----- END GENERAL-----*/
+
+/*-----HEADER-----*/
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -42,3 +48,100 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
+/*-----END HEADER-----*/
+
+/*------MAIN------*/
+.services {
+  background: #2f303a;
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.quality {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.quality-inside {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.about-us,
+.team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-profil {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*------END MAIN------*/
+
+/*------FOOTER------*/
+.footer {
+  background: #2f303a;
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-logo-second {
+  color: #ffffff;
+}
+.address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contacts {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*------END FOOTER------*/
+
+/*END INDEX.HTML*/
