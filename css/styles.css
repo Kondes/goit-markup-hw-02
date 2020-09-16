@@ -6,6 +6,10 @@
   --title-text-color: #212121;
   --main-text-color: #ffffff;
   --accent-color: #2196f3;
+  --logo-color: #000000;
+  --other-color: #f5f4fa;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --background-color: #2f303a;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -29,7 +33,7 @@ body {
   color: var(--accent-color);
 }
 .logo-second {
-  color: #000000;
+  color: var(--logo-color);
 }
 .navigation-list-link {
   font-weight: 500;
@@ -63,7 +67,7 @@ body {
 
 /*------MAIN------*/
 .services {
-  background: #2f303a;
+  background: var(--background-color);
 }
 .main-title {
   font-weight: 900;
@@ -108,7 +112,7 @@ body {
   color: var(--title-text-color);
 }
 .section-second {
-  background: #f5f4fa;
+  background: var(--other-color);
 }
 
 .team-name {
@@ -129,11 +133,10 @@ body {
 
 /*------FOOTER------*/
 .footer {
-  background: #2f303a;
+  background: var(--background-color);
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -157,7 +160,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts-color);
 }
 /*------END FOOTER------*/
 
@@ -167,14 +170,12 @@ body {
 
 /*----MAIN-----*/
 .projects {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  background: #f5f4fa;
+  background: var(--other-color);
 }
 .projects:hover,
 .projects:focus {
